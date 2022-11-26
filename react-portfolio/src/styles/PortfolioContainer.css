@@ -1,0 +1,15 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
