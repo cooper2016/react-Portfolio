@@ -1,12 +1,6 @@
 import "./App.css";
-import Footer from "./components/Footer";
+import PorfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return (
-    <div className="porfolio">
-      <Footer />
-    </div>
-  );
-}
+const App = () => <PorfolioContainer />;
 
 export default App;
