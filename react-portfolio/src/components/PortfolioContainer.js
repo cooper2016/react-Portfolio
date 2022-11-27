@@ -38,7 +38,7 @@ export default function PortfolioContainer() {
         />
       </div>
       {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
+      <div id="page">{renderPage()}</div>
       <Footer />
     </div>
   );
