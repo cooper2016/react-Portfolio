@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { validateEmail } from "../utils/helpers";
 
+import "../styles/Contact.css";
+
 export default function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -50,6 +52,7 @@ export default function ContactForm() {
   return (
     <div>
       <form className="form">
+        <p>Name:</p>
         <input
           value={name}
           name="name"
@@ -57,13 +60,15 @@ export default function ContactForm() {
           type="text"
           placeholder="Name"
         />
+        <p>Email:</p>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
         />
+        <p>Message:</p>
         <input
           value={message}
           name="message"
