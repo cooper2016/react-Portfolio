@@ -1,8 +1,8 @@
 #header {
     display: flex;
     justify-content: space-between;
-    background-color: blue;
-    color: white;
+    background-color: aqua;
+    color: blue;
     padding: 2vh 2vw;
 }
 
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    color: white;
+    color: red;
 }
 
 #page {

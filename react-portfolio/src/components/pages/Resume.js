@@ -4,7 +4,7 @@ import "../../styles/Resume.css";
 
 export default function Resume() {
   return (
-    <div id="Resume">
+    <div>
       <div>
         <h1>Proficiencies: </h1>
         <ul>
@@ -16,7 +16,7 @@ export default function Resume() {
           <li>noSQL</li>
         </ul>
       </div>
-      <div>
+      <div id="download">
         <h1>Download my resume below: </h1>
         <a href={MyResume} download="Resume" target="_blank" rel="noreferrer">
           <button>Harrison Cooper Resume</button>
